@@ -1,1 +1,76 @@
-[ ]
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 470,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 490,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 570,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 590,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 870,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 890,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "select",
+  "user" : "carol19",
+  "timestamp" : 1010,
+  "message" : null
+}, {
+  "command" : "select",
+  "user" : "david27",
+  "timestamp" : 1210,
+  "message" : null
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1310,
+  "message" : null
+} ]

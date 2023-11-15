@@ -1,1 +1,72 @@
-[ ]
+[ {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 5 results",
+  "results" : [ "Start Me Up", "Black Dog", "Paint It Black", "Gimme Shelter", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 270,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 445,
+  "message" : "Successfully selected Under Pressure."
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 510,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 800,
+  "message" : "Search returned 1 results",
+  "results" : [ "How I Built This" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 890,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1198,
+  "message" : "Search returned 1 results",
+  "results" : [ "How I Built This" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1199,
+  "message" : null
+} ]

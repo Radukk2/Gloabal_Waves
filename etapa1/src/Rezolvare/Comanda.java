@@ -3,15 +3,14 @@ package Rezolvare;
 import java.util.ArrayList;
 
 class Filters {
-    String name;
-    String album;
-    ArrayList<String> tags;
-    String lyrics;
-    String genre;
-    String releaseYear;
-    String artist;
-    String owner;
-
+    private String name;
+    private String album;
+    private ArrayList<String> tags;
+    private String lyrics;
+    private String genre;
+    private String releaseYear;
+    private String artist;
+    private String owner;
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
     public String getAlbum() { return album; }
@@ -65,6 +64,4 @@ public class Comanda {
 
     public Comanda() {}
 }
- class SongComands extends Comanda{
 
- }
