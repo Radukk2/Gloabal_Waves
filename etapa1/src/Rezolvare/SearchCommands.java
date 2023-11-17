@@ -1,8 +1,13 @@
 package Rezolvare;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import fileio.input.LibraryInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
+import fileio.input.UserCommands;
+
 import java.util.ArrayList;
 
 public class SearchCommands extends Output{
@@ -87,6 +92,103 @@ public class SearchCommands extends Output{
 			results = finaList;
 		}
 		return results;
+	}
+
+	public ArrayList<String> SearchPlaylist(Comanda comanda, ArrayList<UserCommands> userCommands) {
+		ArrayList<Playlist> playlistArrayList = new ArrayList<Playlist>();
+		results = new ArrayList<String>();
+		for (UserCommands userCommands1 : userCommands) {
+			if (userCommands1.getPlaylist() != null) {
+				for (Playlist playlist : userCommands1.getPlaylist())
+					playlistArrayList.add(playlist);
+			}
+		}
+		int nrElements = 0;
+		for (Playlist playlist : playlistArrayList) {
+			results.add(playlist.getPlaylistName());
+			if (comanda.getFilters().getName() != null && !playlist.getPlaylistName().startsWith(comanda.getFilters().getName()))
+				results.remove(playlist.getPlaylistName());
+			if (comanda.getFilters().getOwner() != null && !playlist.getPlaylistOwner().equals(comanda.getFilters().getOwner()))
+				results.remove(playlist.getPlaylistName());
+			nrElements++;
+		}
+		if (nrElements >= 5) {
+			ArrayList<String> finaList = new ArrayList<String>();
+			int i = 0;
+			for (String nume : results) {
+				finaList.add(nume);
+				i++;
+				if (i == 5)
+					break;
+			}
+			results = finaList;
+		}
+		return results;
+	}
+	public void searchFinal (Comanda comm, LibraryInput library, ObjectMapper objectMapper,
+							 ArrayNode outputs, ArrayList<UserCommands> userCommands) {
+		SearchCommands searchCommands = new SearchCommands();
+		searchCommands.setTimestamp(comm.getTimestamp());
+		searchCommands.setCommand(comm.getCommand());
+		searchCommands.setUser(comm.getUsername());
+		if (comm.getType().equals("song")) {
+			searchCommands.setResults(searchCommands.SearchSongs(library, comm));
+			if (searchCommands.SearchSongs(library, comm) != null) {
+				ArrayList<String> str = searchCommands.SearchSongs(library, comm);
+				int contor = str.size();
+				searchCommands.setMessage("Search returned " + contor + " results");
+			}
+			JsonNode node = objectMapper.valueToTree(searchCommands);
+			outputs.add(node);
+		}
+		if (comm.getType().equals("podcast")) {
+			searchCommands.setResults(searchCommands.SearchPodcast(library, comm));
+			if (searchCommands.SearchPodcast(library, comm) != null) {
+				ArrayList<String> str = searchCommands.SearchPodcast(library, comm);
+				int contor = str.size();
+				searchCommands.setMessage("Search returned " + contor + " results");
+			}
+			JsonNode node = objectMapper.valueToTree(searchCommands);
+			outputs.add(node);
+		}
+		if (comm.getType().equals("playlist") == true) {
+			searchCommands.setResults(searchCommands.SearchPlaylist(comm, userCommands));
+			if (searchCommands.SearchPodcast(library, comm) != null) {
+				ArrayList<String> str = searchCommands.SearchPlaylist(comm, userCommands);
+				int contor = str.size();
+				searchCommands.setMessage("Search returned " + contor + " results");
+			}
+			JsonNode node = objectMapper.valueToTree(searchCommands);
+			outputs.add(node);
+		}
+		boolean ok = false;
+		for (UserCommands user : userCommands) {
+			if (user.getUsername().equals(comm.getUsername())) {
+				user.setTrack(comm.getType());
+				if (user.getTrack().equals("song"))
+					user.setResults(searchCommands.SearchSongs(library, comm));
+				if (user.getTrack().equals("podcast"))
+					user.setResults(searchCommands.SearchPodcast(library, comm));
+				if (user.getTrack().equals("playlist"))
+					user.setResults(searchCommands.SearchPlaylist(comm, userCommands));
+				user.setLastCommand("search");
+				ok = true;
+				break;
+			}
+		}
+		if (!ok) {
+			UserCommands userCommands1 = new UserCommands();
+			userCommands1.setLastCommand("search");
+			userCommands1.setUsername(comm.getUsername());
+			userCommands1.setTrack(comm.getType());
+			userCommands.add(userCommands1);
+			if (userCommands1.getTrack().equals("song"))
+				userCommands1.setResults(searchCommands.SearchSongs(library, comm));
+			if (userCommands1.getTrack().equals("podcast"))
+				userCommands1.setResults(searchCommands.SearchPodcast(library, comm));
+			if (userCommands1.getTrack().equals("playlist"))
+				userCommands1.setResults(searchCommands.SearchPlaylist(comm, userCommands));
+		}
 	}
 }
 

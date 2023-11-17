@@ -8,7 +8,12 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 15,
-  "message" : null
+  "message" : "Successfully selected TED Radio Hour."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 20,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21,6 +26,11 @@
   "timestamp" : 65,
   "message" : "Successfully selected Stairway to Heaven."
 }, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 70,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 75,
@@ -30,7 +40,17 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 80,
-  "message" : null
+  "message" : "Successfully selected TED Radio Hour."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 85,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "createPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3210,
+  "message" : "Playlist created successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -43,6 +63,16 @@
   "timestamp" : 3220,
   "message" : "Successfully selected Freedom."
 }, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3225,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3235,
@@ -54,8 +84,29 @@
   "timestamp" : 3240,
   "message" : "Successfully selected Happier."
 }, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3245,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3255,
+  "message" : "Search returned 1 results",
+  "results" : [ "2010 hits" ]
+}, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 3260,
-  "message" : null
+  "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3265,
+  "message" : "Playback loaded successfully."
 } ]

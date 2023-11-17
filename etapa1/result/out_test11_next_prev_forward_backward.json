@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -9,6 +14,16 @@
   "user" : "bob35",
   "timestamp" : 190,
   "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 195,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -21,6 +36,16 @@
   "timestamp" : 290,
   "message" : "Successfully selected Shape of You."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 295,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 320,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 370,
@@ -31,6 +56,16 @@
   "user" : "bob35",
   "timestamp" : 390,
   "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 420,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -43,10 +78,42 @@
   "timestamp" : 445,
   "message" : "Successfully selected Under Pressure."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 446,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 480,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 210,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 510,
-  "message" : null
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 650,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -57,7 +124,12 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 890,
-  "message" : null
+  "message" : "Successfully selected How I Built This."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -68,5 +140,10 @@
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1199,
-  "message" : null
+  "message" : "Successfully selected How I Built This."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
 } ]

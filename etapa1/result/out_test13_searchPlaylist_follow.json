@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 170,
@@ -10,10 +15,30 @@
   "timestamp" : 190,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 200,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 290,
   "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 300,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 340,
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -26,6 +51,21 @@
   "timestamp" : 390,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 400,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "createPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 470,
@@ -36,6 +76,16 @@
   "user" : "bob35",
   "timestamp" : 490,
   "message" : "Successfully selected Start Me Up."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 540,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -48,6 +98,16 @@
   "timestamp" : 590,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 600,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 640,
+  "message" : "Successfully removed from playlist."
+}, {
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 870,
@@ -59,18 +119,96 @@
   "timestamp" : 890,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "carol19",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "carol19",
+  "timestamp" : 940,
+  "message" : "The specified playlist does not exist."
+}, {
+  "command" : "search",
+  "user" : "carol19",
+  "timestamp" : 1000,
+  "message" : "Search returned 1 results",
+  "results" : [ "My first playlist" ]
+}, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1010,
-  "message" : null
+  "message" : "Successfully selected My first playlist."
+}, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 1060,
+  "result" : [ {
+    "name" : "My first playlist",
+    "songs" : [ "Start Me Up" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "My second playlist",
+    "songs" : [ ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 1100,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "bob35",
+  "timestamp" : 1160,
+  "result" : [ {
+    "name" : "My first playlist",
+    "songs" : [ "Start Me Up" ],
+    "visibility" : "public",
+    "followers" : 0
+  }, {
+    "name" : "My second playlist",
+    "songs" : [ ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "search",
+  "user" : "david27",
+  "timestamp" : 1200,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1210,
-  "message" : null
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1300,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1310,
-  "message" : null
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 1370,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 1500,
+  "result" : [ ]
+}, {
+  "command" : "showPlaylists",
+  "user" : "carol19",
+  "timestamp" : 1600,
+  "result" : [ ]
 } ]

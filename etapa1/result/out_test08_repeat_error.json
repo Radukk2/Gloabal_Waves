@@ -8,7 +8,61 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1100,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected The Unforgiven."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 1120,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "stats" : {
+    "name" : "The Unforgiven",
+    "remainedTime" : 316,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 2100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 2200,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2245,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3000,
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3150,
+  "message" : "Playlist created successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -21,8 +75,40 @@
   "timestamp" : 3190,
   "message" : "Successfully selected 99 Problems."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 3195,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3220,
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 209,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3260,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 3290,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3405,
+  "message" : "A playlist with the same name already exists."
 } ]

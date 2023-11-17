@@ -1,4 +1,9 @@
 [ {
+  "command" : "createPlaylist",
+  "user" : "emily30",
+  "timestamp" : 150,
+  "message" : "Playlist created successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
@@ -9,6 +14,16 @@
   "user" : "emily30",
   "timestamp" : 190,
   "message" : "Successfully selected Going Bad."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 195,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 240,
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -21,10 +36,31 @@
   "timestamp" : 290,
   "message" : "Successfully selected Swimming Pools (Drank)."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 300,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 1190,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 1195,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -35,7 +71,12 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2190,
-  "message" : "Please conduct a search before making a selection."
+  "message" : "Successfully selected The Daily."
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 2200,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -47,4 +88,20 @@
   "user" : "emily30",
   "timestamp" : 4220,
   "message" : "Successfully selected Championships."
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 4330,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 4350,
+  "message" : "Playback loaded successfully."
 } ]
