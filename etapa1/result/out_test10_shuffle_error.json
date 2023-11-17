@@ -7,8 +7,12 @@
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 110,
-  "message" : null
+  "timestamp" : 110
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 115,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -21,6 +25,11 @@
   "timestamp" : 210,
   "message" : "Successfully selected Blank Space."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 213,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 250,
@@ -31,6 +40,11 @@
   "user" : "bob35",
   "timestamp" : 260,
   "message" : "Successfully selected Whole Lotta Love."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 263,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -43,6 +57,11 @@
   "timestamp" : 410,
   "message" : "Successfully selected I Don't Wanna Live Forever."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 415,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 500,
@@ -53,6 +72,11 @@
   "user" : "bob35",
   "timestamp" : 510,
   "message" : "Successfully selected Kings Dead."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 513,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -65,8 +89,28 @@
   "timestamp" : 560,
   "message" : "Successfully selected Thinking Out Loud."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 563,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 3100,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 3130,
-  "message" : "Please conduct a search before making a selection."
+  "timestamp" : 3130
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 3140,
+  "message" : "Playback loaded successfully."
 } ]

@@ -7,8 +7,12 @@
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 15,
-  "message" : null
+  "timestamp" : 15
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 20,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -21,6 +25,11 @@
   "timestamp" : 65,
   "message" : "Successfully selected Stairway to Heaven."
 }, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 70,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 75,
@@ -29,8 +38,12 @@
 }, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 80,
-  "message" : null
+  "timestamp" : 80
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 85,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -43,6 +56,11 @@
   "timestamp" : 3220,
   "message" : "Successfully selected Freedom."
 }, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3225,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 3235,
@@ -54,8 +72,17 @@
   "timestamp" : 3240,
   "message" : "Successfully selected Happier."
 }, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3245,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "select",
   "user" : "alice22",
-  "timestamp" : 3260,
-  "message" : null
+  "timestamp" : 3260
+}, {
+  "command" : "load",
+  "user" : "alice22",
+  "timestamp" : 3265,
+  "message" : "Playback loaded successfully."
 } ]

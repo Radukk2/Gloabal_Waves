@@ -1,9 +1,6 @@
 package main;
 
-import Rezolvare.Comanda;
-import Rezolvare.Output;
-import Rezolvare.SearchCommands;
-import Rezolvare.SelectCommand;
+import Rezolvare.*;
 import checker.Checker;
 import checker.CheckerConstants;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -12,20 +9,17 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import fileio.input.LibraryInput;
-import fileio.input.SongInput;
 import fileio.input.UserCommands;
-import netscape.javascript.JSObject;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.ObjectInputFilter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Objects;
-import java.util.logging.Filter;
 
 /**
  * The entry point to this homework. It runs the checker that tests your implentation.
@@ -84,19 +78,18 @@ public final class Main {
         ObjectMapper objectMapper = new ObjectMapper();
         LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
         ArrayNode outputs = objectMapper.createArrayNode();
-
         // TODO add your implementation
-//        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_DEFAULT);
-        ArrayList<Comanda> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput),
-                new TypeReference<ArrayList<Comanda>>() {});
-        ArrayList<UserCommands> userCommands = new ArrayList<UserCommands>();
+        objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        ArrayList<Comanda> commands = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePathInput), new TypeReference<>() {
+		});
+        ArrayList<UserCommands> userCommands = new ArrayList<>();
         for (Comanda comm : commands) {
             if (comm.getCommand().equals("search")) {
                 SearchCommands searchCommands = new SearchCommands();
                 searchCommands.setTimestamp(comm.getTimestamp());
                 searchCommands.setCommand(comm.getCommand());
                 searchCommands.setUser(comm.getUsername());
-                if (comm.getType().equals("song") == true) {
+                if (comm.getType().equals("song")) {
                     searchCommands.setResults(searchCommands.SearchSongs(library, comm));
                     if (searchCommands.SearchSongs(library, comm) != null) {
                         ArrayList<String> str = searchCommands.SearchSongs(library, comm);
@@ -106,7 +99,7 @@ public final class Main {
                     JsonNode node = objectMapper.valueToTree(searchCommands);
                     outputs.add(node);
                 }
-                if (comm.getType().equals("podcast") == true) {
+                if (comm.getType().equals("podcast")) {
                     searchCommands.setResults(searchCommands.SearchPodcast(library, comm));
                     if (searchCommands.SearchPodcast(library, comm) != null) {
                         ArrayList<String> str = searchCommands.SearchPodcast(library, comm);
@@ -119,29 +112,53 @@ public final class Main {
                 if (comm.getType().equals("playlist") == true) {
 
                 }
-                UserCommands userCommands1 = new UserCommands();
-                userCommands1.setLastCommand(comm.getCommand());
-                userCommands1.setUsername(comm.getUsername());
-                userCommands.add(userCommands1);
+                boolean ok = false;
+                for (UserCommands user : userCommands) {
+                    if (user.getUsername().equals(comm.getUsername())) {
+                        user.setTrack(comm.getType());
+                        if (user.getTrack().equals("song"))
+                            user.setResults(searchCommands.SearchSongs(library, comm));
+                        if (user.getTrack().equals("podcast"))
+                            user.setResults(searchCommands.SearchPodcast(library, comm));
+                        user.setLastCommand("search");
+                        ok = true;
+                        break;
+                    }
+                }
+                if (!ok) {
+                    UserCommands userCommands1 = new UserCommands();
+                    userCommands1.setLastCommand("search");
+                    userCommands1.setUsername(comm.getUsername());
+                    userCommands1.setTrack(comm.getType());
+                    userCommands.add(userCommands1);
+                    if (userCommands1.getTrack().equals("song"))
+                        userCommands1.setResults(searchCommands.SearchSongs(library, comm));
+                    if (userCommands1.getTrack().equals("podcast"))
+                        userCommands1.setResults(searchCommands.SearchPodcast(library, comm));
+                }
+
             }
             if (comm.getCommand().equals("select")) {
                 Output output = new Output();
-                int index = commands.indexOf(comm) - 1;
-                Comanda prevComm = commands.get(index);
                 output.setCommand("select");
+                UserCommands userCommands1 = new UserCommands();
+                for (UserCommands user : userCommands) {
+                    if (comm.getUsername().equals(user.getUsername())) {
+                        userCommands1 = user;
+                        break;
+                    }
+                }
                 output.setTimestamp(comm.getTimestamp());
                 output.setTimestamp(comm.getTimestamp());
                 output.setUser(comm.getUsername());
-                if (prevComm.getCommand().equals("search") == true) {
-                    if (prevComm.getType().equals("song")) {
-                        SearchCommands newSearch = new SearchCommands();
-                        ArrayList<String> str = new ArrayList<String>();
-                        str = newSearch.SearchSongs(library, prevComm);
-                        if (str.size() < comm.getItemNumber())
+                if (userCommands1.getLastCommand().equals("search")) {
+                    if (userCommands1.getTrack().equals("song")) {
+                        if (userCommands1.getResults().size() < comm.getItemNumber())
                             output.setMessage("The selected ID is too high.");
                         else {
-                            String elem = str.get(comm.getItemNumber() - 1);
+                            String elem = userCommands1.getResults().get(comm.getItemNumber() - 1);
                             output.setMessage("Successfully selected " + elem + ".");
+                            userCommands1.setSelectedSong(elem);
                         }
                     }
                 }
@@ -150,16 +167,42 @@ public final class Main {
                 }
                 JsonNode node = objectMapper.valueToTree(output);
                 outputs.add(node);
+                userCommands1.setLastCommand("select");
             }
-            if (comm.getCommand().equals("load") == true) {
-                Output output = new Output();
-                int index = commands.indexOf(comm) - 1;
-                Comanda prevComm = commands.get(index);
-                if (prevComm.getCommand().equals("select")) {
+                if (comm.getCommand().equals("load")) {
+                    Output output = new Output();
+                    output.setCommand("load");
+                    output.setUser(comm.getUsername());
+                    output.setTimestamp(comm.getTimestamp());
+                    UserCommands userCommands1 = new UserCommands();
+                    for (UserCommands user : userCommands) {
+                        if (comm.getUsername().equals(user.getUsername())) {
+                            userCommands1 = user;
+                            break;
+                        }
+                    }
+                    if (userCommands1.getLastCommand().equals("select")) {
+                        userCommands1.LoadData(userCommands1, library);
+                        userCommands1.setLastTimestamp(comm.getTimestamp());
+                        output.setMessage("Playback loaded successfully.");
+                    }
+                    else
+                        output.setMessage("Please select a source before attempting to load.");
+                    JsonNode node = objectMapper.valueToTree(output);
+                    outputs.add(node);
+                }
+                if (comm.getCommand().equals("status")) {
+                    Status status = new Status();
+                    status.showStatus(comm, userCommands,objectMapper, outputs);
+                }
+                if (comm.getCommand().equals("playPause")) {
+                    PlayPause playPause = new PlayPause();
+                    playPause.playPauseCommand(comm, userCommands, objectMapper, outputs);
+                }
+                if (comm.getCommand().equals("createPlaylist")) {
 
                 }
             }
-        }
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePathOutput), outputs);
     }

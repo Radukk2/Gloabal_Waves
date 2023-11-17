@@ -10,6 +10,11 @@
   "timestamp" : 190,
   "message" : "Successfully selected Start Me Up."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 195,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 270,
@@ -20,6 +25,11 @@
   "user" : "bob35",
   "timestamp" : 290,
   "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 295,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -32,6 +42,11 @@
   "timestamp" : 390,
   "message" : "Successfully selected Stairway to Heaven."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 420,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 440,
@@ -43,10 +58,30 @@
   "timestamp" : 445,
   "message" : "Successfully selected Under Pressure."
 }, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 446,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 480,
+  "stats" : {
+    "name" : "Under Pressure",
+    "remainedTime" : 210,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 510,
-  "message" : null
+  "timestamp" : 510
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 650,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -56,8 +91,12 @@
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 890,
-  "message" : null
+  "timestamp" : 890
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 900,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -67,6 +106,10 @@
 }, {
   "command" : "select",
   "user" : "bob35",
-  "timestamp" : 1199,
-  "message" : null
+  "timestamp" : 1199
+}, {
+  "command" : "load",
+  "user" : "bob35",
+  "timestamp" : 1200,
+  "message" : "Playback loaded successfully."
 } ]

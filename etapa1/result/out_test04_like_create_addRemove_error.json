@@ -10,6 +10,11 @@
   "timestamp" : 10,
   "message" : "Successfully selected Big Pimpin'."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 15,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 25,
@@ -18,8 +23,12 @@
 }, {
   "command" : "select",
   "user" : "emily30",
-  "timestamp" : 30,
-  "message" : null
+  "timestamp" : 30
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 31,
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -38,8 +47,17 @@
   "timestamp" : 70,
   "message" : "Successfully selected Get Lucky."
 }, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 71,
+  "message" : "Playback loaded successfully."
+}, {
   "command" : "select",
   "user" : "emily30",
-  "timestamp" : 85,
-  "message" : "Please conduct a search before making a selection."
+  "timestamp" : 85
+}, {
+  "command" : "load",
+  "user" : "emily30",
+  "timestamp" : 86,
+  "message" : "Playback loaded successfully."
 } ]
