@@ -57,19 +57,44 @@ public class UserCommands {
 		}
 	}
 
-//	public void LoadDataPlaylist(ArrayList<UserCommands> userCommands, UserCommands userCommands1) {
-//		ArrayList<Playlist> playlists1 = new ArrayList<Playlist>();
-//		for (UserCommands userCommands2 : userCommands) {
-//			if (userCommands2.getPlaylist() != null) {
-//				for (Playlist playlist : userCommands2.getPlaylist()) {
-//					playlists1.add(playlist);
-//				}
-//			}
-//		}
-//		Playlist playlist = new Playlist();
-//		for (Playlist playlist3 : playlists1) {
-//			if (playlist3.getPlaylistName().equals(userCommands1.get))
-//		}
-//
-//	}
+	public void LoadDataPlaylist(UserCommands userCommands1, LibraryInput libraryInput) {
+
+		for (Playlist playlist : userCommands1.getPlaylist()) {
+			if (playlist.getPlaylistName().equals(userCommands1.getPlayingPlaylist()) == true) {
+				userCommands1.setSelectedSong(playlist.getSongs().get(0).getName());
+				userCommands1.LoadData(userCommands1, libraryInput);
+				userCommands1.setLastCommand("load");
+				int playlistDuration = 0;
+				for (SongInput songInput : playlist.getSongs())
+					playlistDuration += songInput.getDuration();
+				userCommands1.getStats().setRemainedTime(playlistDuration);
+			}
+		}
+	}
+
+	public void LoadDataPodcast(UserCommands userCommands1, LibraryInput libraryInput) {
+		if (userCommands1.getTrack().equals("podcast")) {
+			ArrayList<PodcastInput> Podcasts = libraryInput.getPodcasts();
+			PodcastInput podcast = new PodcastInput();
+			for (PodcastInput podcastInput : Podcasts) {
+				if (podcastInput.getName().equals(userCommands1.getSelectedSong())) {
+					podcast = podcastInput;
+					break;
+				}
+			}
+			if (podcast.getName() != null) {
+				Stats stats = new Stats();
+				stats.setName(podcast.getName());
+				int duration = 0;
+				for (EpisodeInput episodeInput : podcast.getEpisodes())
+					duration += episodeInput.getDuration();
+				stats.setRemainedTime(duration);
+				stats.setRepeat("No Repeat");
+				stats.setPaused(false);
+				stats.setShuffle(false);
+				userCommands1.setStats(stats);
+				userCommands1.setLastCommand("load");
+			}
+		}
+	}
 }

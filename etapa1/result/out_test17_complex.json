@@ -4517,7 +4517,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
@@ -6212,7 +6212,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ ]
+  "result" : [ "Angie" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",

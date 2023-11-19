@@ -98,7 +98,7 @@ public final class Main {
                 }
                 if (comm.getCommand().equals("status")) {
                     Status status = new Status();
-                    status.showStatus(comm, userCommands,objectMapper, outputs);
+                    status.StatusCommand(comm, userCommands,objectMapper, outputs);
                 }
                 if (comm.getCommand().equals("playPause")) {
                     PlayPause playPause = new PlayPause();

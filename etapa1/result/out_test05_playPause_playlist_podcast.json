@@ -15,6 +15,16 @@
   "timestamp" : 20,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 59,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 60,
@@ -46,6 +56,26 @@
   "user" : "alice22",
   "timestamp" : 85,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 86,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "alice22",
+  "timestamp" : 3201,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
 }, {
   "command" : "createPlaylist",
   "user" : "alice22",

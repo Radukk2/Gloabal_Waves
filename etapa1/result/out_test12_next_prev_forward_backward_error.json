@@ -78,6 +78,26 @@
   "timestamp" : 2200,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3220,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "emily30",
+  "timestamp" : 3920,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 4200,
@@ -93,9 +113,8 @@
   "user" : "emily30",
   "timestamp" : 4330,
   "stats" : {
-    "name" : "",
+    "name" : "Championships",
     "remainedTime" : 0,
-    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }

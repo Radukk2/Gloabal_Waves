@@ -93,12 +93,15 @@ public class Output {
 		if (userCommands1.getLastCommand().equals("select")) {
 			if (userCommands1.getTrack().equals("song"))
 				userCommands1.LoadData(userCommands1, library);
-			if (userCommands1.getPlayingPlaylist() != null) {
-//				userCommands1.LoadData(userCommands1, library);
-//				userCommands1.
+			if (userCommands1.getPlayingPlaylist() != null && userCommands1.getTrack().equals("playlist")) {
+				userCommands1.LoadDataPlaylist(userCommands1, library);
 			}
 			userCommands1.setLastTimestamp(comm.getTimestamp());
 			output.setMessage("Playback loaded successfully.");
+			if (userCommands1.getTrack().equals("podcast")) {
+				userCommands1.LoadDataPodcast(userCommands1, library);
+				userCommands1.setTrack("podcast");
+			}
 		}
 		else
 			output.setMessage("Please select a source before attempting to load.");

@@ -4432,12 +4432,12 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5500,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5700,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "like",
   "user" : "jack29",
@@ -4472,7 +4472,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6100,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "like",
   "user" : "bob35",
@@ -4497,7 +4497,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "like",
   "user" : "frank21",
@@ -4517,7 +4517,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "like",
   "user" : "david27",
@@ -6232,7 +6232,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ ]
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",

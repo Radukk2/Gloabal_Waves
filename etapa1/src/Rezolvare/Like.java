@@ -17,11 +17,6 @@ public class Like extends Output{
 		for (UserCommands userCommands1 : userCommands) {
 			if (userCommands1.getUsername().equals(comanda.getUsername())) {
 				if (userCommands1.getLastCommand().equals("load")) {
-					if (userCommands1.getSelectedSong().equals("Playlist alb pentru zile negre") == true) {
-						like.setMessage("Like registered successfully.");
-						break;
-					}
-					else {
 						if (userCommands1.getLikedSongs().size() == 0) {
 							userCommands1.getLikedSongs().add(userCommands1.getSelectedSong());
 							like.setMessage("Like registered successfully.");
@@ -40,7 +35,6 @@ public class Like extends Output{
 								userCommands1.getLikedSongs().add(userCommands1.getSelectedSong());
 							}
 						}
-					}
 				}
 				else
 					like.setMessage("Please load a source before liking or unliking.");

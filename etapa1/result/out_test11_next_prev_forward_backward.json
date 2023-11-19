@@ -131,6 +131,26 @@
   "timestamp" : 900,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1049,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1051,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1198,
@@ -146,4 +166,24 @@
   "user" : "bob35",
   "timestamp" : 1200,
   "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1389,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "status",
+  "user" : "bob35",
+  "timestamp" : 1391,
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "shuffle" : false,
+    "paused" : true
+  }
 } ]
