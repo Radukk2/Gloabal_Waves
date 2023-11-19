@@ -12,13 +12,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 305,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Angie."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -28,18 +28,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 315,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 325,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 330,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -55,12 +55,12 @@
   "user" : "alice22",
   "timestamp" : 350,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 355,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Delicate."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -75,13 +75,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 375,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 380,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -91,18 +91,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 390,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 400,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 405,
-  "message" : "Successfully selected Black Dog."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -112,18 +112,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 415,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 425,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 430,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -138,13 +138,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 455,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -160,12 +160,12 @@
   "user" : "alice22",
   "timestamp" : 475,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 480,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -175,18 +175,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 490,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 500,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 505,
-  "message" : "Successfully selected Delicate."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -196,18 +196,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 515,
-  "message" : "Successfully added to playlist."
+  "message" : "Successfully removed from playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 525,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 530,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -244,12 +244,12 @@
   "user" : "alice22",
   "timestamp" : 575,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 580,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -259,18 +259,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 590,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 600,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 605,
-  "message" : "Successfully selected Shape of You."
+  "message" : "Successfully selected Love Story."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -285,13 +285,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 630,
-  "message" : "Successfully selected Blank Space."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -306,13 +306,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 650,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 655,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -328,12 +328,12 @@
   "user" : "alice22",
   "timestamp" : 675,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 680,
-  "message" : "Successfully selected Blank Space."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -348,13 +348,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 700,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 705,
-  "message" : "Successfully selected Paint It Black."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -375,7 +375,7 @@
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 730,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Delicate."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -391,12 +391,12 @@
   "user" : "alice22",
   "timestamp" : 750,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 755,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Money Trees."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -411,13 +411,13 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 780,
-  "message" : "Successfully selected Delicate."
+  "message" : "Successfully selected Thinking Out Loud."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -427,18 +427,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 790,
-  "message" : "Successfully removed from playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 800,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 805,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -448,18 +448,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 815,
-  "message" : "The specified playlist does not exist."
+  "message" : "Please load a source before adding to or removing from the playlist."
 }, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 825,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 830,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -474,13 +474,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 850,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 855,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected Dream On."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -516,13 +516,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 900,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 905,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Big Pimpin'."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -537,13 +537,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 925,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 930,
-  "message" : "Successfully selected The Unforgiven."
+  "message" : "Successfully selected Angie."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -558,13 +558,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 955,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -580,12 +580,12 @@
   "user" : "bob35",
   "timestamp" : 975,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 980,
-  "message" : "Successfully selected The Man."
+  "message" : "Successfully selected Whatever You Need."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -600,13 +600,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1005,
-  "message" : "Successfully selected Maps."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -621,13 +621,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1025,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1030,
-  "message" : "Successfully selected The Unforgiven."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -643,12 +643,12 @@
   "user" : "bob35",
   "timestamp" : 1050,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1055,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -664,12 +664,12 @@
   "user" : "bob35",
   "timestamp" : 1075,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1080,
-  "message" : "Successfully selected Delicate."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -684,13 +684,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1105,
-  "message" : "Successfully selected Begin Again."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -705,13 +705,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1125,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1130,
-  "message" : "Successfully selected The Man."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -748,12 +748,12 @@
   "user" : "bob35",
   "timestamp" : 1175,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1180,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -768,13 +768,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1200,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1205,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -789,13 +789,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1225,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1230,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -810,13 +810,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1255,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -831,13 +831,13 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 1275,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 1280,
-  "message" : "Successfully selected The Man."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "bob35",
@@ -853,12 +853,12 @@
   "user" : "carol19",
   "timestamp" : 1300,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1305,
-  "message" : "Successfully selected Shape of You."
+  "message" : "Successfully selected Love Story."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -874,12 +874,12 @@
   "user" : "carol19",
   "timestamp" : 1325,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1330,
-  "message" : "Successfully selected Shape of You."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -894,13 +894,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1350,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1355,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -915,13 +915,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1375,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1380,
-  "message" : "Successfully selected Happier."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -936,13 +936,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1405,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -957,13 +957,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1425,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1430,
-  "message" : "Successfully selected Maps."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -978,13 +978,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1450,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1455,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -999,13 +999,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1475,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1480,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1021,12 +1021,12 @@
   "user" : "carol19",
   "timestamp" : 1500,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1505,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Money Trees."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1041,13 +1041,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1525,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1530,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1062,13 +1062,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1550,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1555,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1084,12 +1084,12 @@
   "user" : "carol19",
   "timestamp" : 1575,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1580,
-  "message" : "Successfully selected Happier."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1104,13 +1104,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1600,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1605,
-  "message" : "Successfully selected The Unforgiven."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1125,13 +1125,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1625,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1630,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1146,13 +1146,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1650,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1655,
-  "message" : "Successfully selected Money Trees."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1167,13 +1167,13 @@
   "command" : "search",
   "user" : "carol19",
   "timestamp" : 1675,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1680,
-  "message" : "Successfully selected The Unforgiven."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1189,12 +1189,12 @@
   "user" : "carol19",
   "timestamp" : 1700,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1705,
-  "message" : "Successfully selected Castle on the Hill."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1210,12 +1210,12 @@
   "user" : "carol19",
   "timestamp" : 1725,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1730,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1231,12 +1231,12 @@
   "user" : "carol19",
   "timestamp" : 1750,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1755,
-  "message" : "Successfully selected Shape of You."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1252,12 +1252,12 @@
   "user" : "carol19",
   "timestamp" : 1775,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "carol19",
   "timestamp" : 1780,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "carol19",
@@ -1272,13 +1272,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1805,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1288,18 +1288,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "david27",
   "timestamp" : 1815,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "The specified playlist does not exist."
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1825,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1830,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1314,13 +1314,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1850,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1855,
-  "message" : "Successfully selected The Man."
+  "message" : "Successfully selected Dream On."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1335,13 +1335,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 1875,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1880,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Angie."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1357,12 +1357,12 @@
   "user" : "david27",
   "timestamp" : 1900,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1905,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Big Pimpin'."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1378,12 +1378,12 @@
   "user" : "david27",
   "timestamp" : 1925,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1930,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1440,13 +1440,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2005,
-  "message" : "Successfully selected Don't."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1462,12 +1462,12 @@
   "user" : "david27",
   "timestamp" : 2025,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2030,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1482,13 +1482,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2050,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2055,
-  "message" : "Successfully selected The Man."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1503,13 +1503,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2075,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2080,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1524,13 +1524,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2105,
-  "message" : "Successfully selected Don't."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1546,12 +1546,12 @@
   "user" : "david27",
   "timestamp" : 2125,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2130,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1587,13 +1587,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2175,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2180,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1609,12 +1609,12 @@
   "user" : "david27",
   "timestamp" : 2200,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2205,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1629,13 +1629,13 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 2225,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2230,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Paint It Black."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1651,12 +1651,12 @@
   "user" : "david27",
   "timestamp" : 2250,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2255,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1672,12 +1672,12 @@
   "user" : "david27",
   "timestamp" : 2275,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 2280,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Love Story."
 }, {
   "command" : "load",
   "user" : "david27",
@@ -1693,12 +1693,12 @@
   "user" : "emily30",
   "timestamp" : 2300,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2305,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1719,7 +1719,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2330,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1735,12 +1735,12 @@
   "user" : "emily30",
   "timestamp" : 2350,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2355,
-  "message" : "Successfully selected Love Story."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1761,7 +1761,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2380,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1776,13 +1776,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2400,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2405,
-  "message" : "Successfully selected The Man."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1797,13 +1797,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2425,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2430,
-  "message" : "Successfully selected The Man."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1819,12 +1819,12 @@
   "user" : "emily30",
   "timestamp" : 2450,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2455,
-  "message" : "Successfully selected Blank Space."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1839,8 +1839,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2475,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -1861,12 +1861,12 @@
   "user" : "emily30",
   "timestamp" : 2500,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2505,
-  "message" : "Successfully selected Happier."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1881,13 +1881,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2525,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2530,
-  "message" : "Successfully selected Delicate."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1902,13 +1902,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2550,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2555,
-  "message" : "Successfully selected Happier."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1929,7 +1929,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2580,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1944,13 +1944,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2600,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2605,
-  "message" : "Successfully selected Whatever You Need."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1966,12 +1966,12 @@
   "user" : "emily30",
   "timestamp" : 2625,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2630,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -1986,13 +1986,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2650,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2655,
-  "message" : "Successfully selected Angie."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -2013,7 +2013,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2680,
-  "message" : "Successfully selected Love Story."
+  "message" : "Successfully selected Delicate."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -2028,13 +2028,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2700,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2705,
-  "message" : "Successfully selected Paint It Black."
+  "message" : "Successfully selected Happier."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -2049,13 +2049,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2725,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2730,
-  "message" : "Successfully selected Castle on the Hill."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -2076,7 +2076,7 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2755,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -2091,13 +2091,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2775,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2780,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "emily30",
@@ -2113,12 +2113,12 @@
   "user" : "frank21",
   "timestamp" : 2800,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2805,
-  "message" : "Successfully selected Castle on the Hill."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2139,7 +2139,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2830,
-  "message" : "Successfully selected Castle on the Hill."
+  "message" : "Successfully selected Happier."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2154,13 +2154,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2850,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2855,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2176,12 +2176,12 @@
   "user" : "frank21",
   "timestamp" : 2875,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2880,
-  "message" : "Successfully selected Blank Space."
+  "message" : "Successfully selected Bohemian Rhapsody."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2202,7 +2202,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2905,
-  "message" : "Successfully selected Blank Space."
+  "message" : "Successfully selected Big Pimpin'."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2218,12 +2218,12 @@
   "user" : "frank21",
   "timestamp" : 2925,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2930,
-  "message" : "Successfully selected The Man."
+  "message" : "Successfully selected Whatever You Need."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2238,13 +2238,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2950,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2955,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dream On."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2259,13 +2259,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 2975,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 2980,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2280,13 +2280,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3005,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2307,7 +2307,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3030,
-  "message" : "Successfully selected Love Story."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2323,12 +2323,12 @@
   "user" : "frank21",
   "timestamp" : 3050,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3055,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Happier."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2344,12 +2344,12 @@
   "user" : "frank21",
   "timestamp" : 3075,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3080,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Love Story."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2364,13 +2364,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3105,
-  "message" : "Successfully selected Delicate."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2386,12 +2386,12 @@
   "user" : "frank21",
   "timestamp" : 3125,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3130,
-  "message" : "Successfully selected Blank Space."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2406,13 +2406,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3150,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3155,
-  "message" : "Successfully selected Black Dog."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2428,12 +2428,12 @@
   "user" : "frank21",
   "timestamp" : 3175,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3180,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2454,7 +2454,7 @@
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3205,
-  "message" : "Successfully selected Happier."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2469,13 +2469,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3225,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3230,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Big Pimpin'."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2491,12 +2491,12 @@
   "user" : "frank21",
   "timestamp" : 3250,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3255,
-  "message" : "Successfully selected Big Pimpin'."
+  "message" : "Successfully selected Delicate."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2511,13 +2511,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 3275,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 3280,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Thinking Out Loud."
 }, {
   "command" : "load",
   "user" : "frank21",
@@ -2553,13 +2553,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3325,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3330,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Delicate."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2569,18 +2569,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "grace25",
   "timestamp" : 3340,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "The specified playlist does not exist."
 }, {
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3350,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3355,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2596,12 +2596,12 @@
   "user" : "grace25",
   "timestamp" : 3375,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3380,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2616,13 +2616,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3400,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3405,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2637,13 +2637,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3425,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3430,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected Money Trees."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2658,13 +2658,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3450,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3455,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Love Story."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2680,12 +2680,12 @@
   "user" : "grace25",
   "timestamp" : 3475,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3480,
-  "message" : "Successfully selected Stairway to Heaven."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2700,13 +2700,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3500,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3505,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2721,8 +2721,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3525,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2763,13 +2763,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3575,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3580,
-  "message" : "Successfully selected Black Dog."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2790,7 +2790,7 @@
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3605,
-  "message" : "Successfully selected Love Story."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2806,12 +2806,12 @@
   "user" : "grace25",
   "timestamp" : 3625,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3630,
-  "message" : "Successfully selected Whatever You Need."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2826,13 +2826,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3650,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3655,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2848,12 +2848,12 @@
   "user" : "grace25",
   "timestamp" : 3675,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3680,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2868,13 +2868,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3700,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3705,
-  "message" : "Successfully selected The Unforgiven."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2889,8 +2889,8 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3725,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "grace25",
@@ -2910,13 +2910,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3750,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3755,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2931,13 +2931,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 3775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 3780,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "grace25",
@@ -2952,13 +2952,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3800,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3805,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -2968,7 +2968,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "henry26",
   "timestamp" : 3815,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "The specified playlist does not exist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -2979,7 +2979,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3830,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -2994,13 +2994,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 3850,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3855,
-  "message" : "Successfully selected Don't."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3016,12 +3016,12 @@
   "user" : "henry26",
   "timestamp" : 3875,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3880,
-  "message" : "Successfully selected Whatever You Need."
+  "message" : "Successfully selected Dream On."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3042,7 +3042,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3905,
-  "message" : "Successfully selected Money Trees."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3058,12 +3058,12 @@
   "user" : "henry26",
   "timestamp" : 3925,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3930,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Dream On."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3079,12 +3079,12 @@
   "user" : "henry26",
   "timestamp" : 3950,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 3955,
-  "message" : "Successfully selected Delicate."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3100,7 +3100,7 @@
   "user" : "henry26",
   "timestamp" : 3975,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -3120,13 +3120,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4000,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4005,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3141,13 +3141,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4025,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4030,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3168,7 +3168,7 @@
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4055,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3183,13 +3183,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4075,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4080,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3204,13 +3204,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4100,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4105,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3226,12 +3226,12 @@
   "user" : "henry26",
   "timestamp" : 4125,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4130,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3247,12 +3247,12 @@
   "user" : "henry26",
   "timestamp" : 4150,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4155,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3267,13 +3267,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4175,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4180,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Under Pressure."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3288,13 +3288,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4200,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4205,
-  "message" : "Successfully selected Begin Again."
+  "message" : "Successfully selected Thinking Out Loud."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3309,13 +3309,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4225,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4230,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3330,13 +3330,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4250,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4255,
-  "message" : "Successfully selected Begin Again."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3351,13 +3351,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 4275,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 4280,
-  "message" : "Successfully selected Paint It Black."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "henry26",
@@ -3372,13 +3372,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4300,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4305,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Dream On."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3388,18 +3388,18 @@
   "command" : "addRemoveInPlaylist",
   "user" : "irene33",
   "timestamp" : 4315,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "The specified playlist does not exist."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4325,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4330,
-  "message" : "Successfully selected Maps."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3414,13 +3414,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4350,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4355,
-  "message" : "Successfully selected The Man."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3435,13 +3435,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4375,
-  "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4380,
-  "message" : "Successfully selected Blank Space."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3457,12 +3457,12 @@
   "user" : "irene33",
   "timestamp" : 4400,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4405,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3477,13 +3477,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4425,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3504,7 +3504,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4455,
-  "message" : "Successfully selected Delicate."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3519,13 +3519,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4475,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4480,
-  "message" : "Successfully selected Big Pimpin'."
+  "message" : "Successfully selected The Unforgiven."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3540,13 +3540,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4500,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4505,
-  "message" : "Successfully selected Sad But True."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3561,13 +3561,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4525,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4530,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Thinking Out Loud."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3583,12 +3583,12 @@
   "user" : "irene33",
   "timestamp" : 4550,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4555,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3609,7 +3609,7 @@
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4580,
-  "message" : "Successfully selected Bohemian Rhapsody."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3625,12 +3625,12 @@
   "user" : "irene33",
   "timestamp" : 4600,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4605,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Money Trees."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3646,12 +3646,12 @@
   "user" : "irene33",
   "timestamp" : 4625,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4630,
-  "message" : "Successfully selected Don't."
+  "message" : "Successfully selected Happier."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3666,13 +3666,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4650,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4655,
-  "message" : "Successfully selected Start Me Up."
+  "message" : "Successfully selected Paint It Black."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3688,12 +3688,12 @@
   "user" : "irene33",
   "timestamp" : 4675,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4680,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3708,13 +3708,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4700,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4705,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3729,13 +3729,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4725,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4730,
-  "message" : "Successfully selected Under Pressure."
+  "message" : "Successfully selected The Unforgiven."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3771,13 +3771,13 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 4775,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
   "timestamp" : 4780,
-  "message" : "Successfully selected Don't."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "irene33",
@@ -3793,12 +3793,12 @@
   "user" : "jack29",
   "timestamp" : 4800,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4805,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Shape of You."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3814,12 +3814,12 @@
   "user" : "jack29",
   "timestamp" : 4825,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4830,
-  "message" : "Successfully selected Big Pimpin'."
+  "message" : "Successfully selected Money Trees."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3834,8 +3834,8 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4850,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
@@ -3856,12 +3856,12 @@
   "user" : "jack29",
   "timestamp" : 4875,
   "message" : "Search returned 5 results",
-  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
+  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4880,
-  "message" : "Successfully selected The Man."
+  "message" : "Successfully selected Delicate."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3876,13 +3876,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4900,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4905,
-  "message" : "Successfully selected Blank Space."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3897,13 +3897,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 4925,
-  "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4930,
-  "message" : "Successfully selected Dream On."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3924,7 +3924,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4955,
-  "message" : "Successfully selected Money Trees."
+  "message" : "Successfully selected Don't."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3940,12 +3940,12 @@
   "user" : "jack29",
   "timestamp" : 4975,
   "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 4980,
-  "message" : "Successfully selected Black Dog."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3961,12 +3961,12 @@
   "user" : "jack29",
   "timestamp" : 5000,
   "message" : "Search returned 5 results",
-  "results" : [ "Shape of You", "The Man", "Delicate", "Happier", "Castle on the Hill" ]
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5005,
-  "message" : "Successfully selected Shape of You."
+  "message" : "Successfully selected Sad But True."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -3982,12 +3982,12 @@
   "user" : "jack29",
   "timestamp" : 5025,
   "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5030,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Stairway to Heaven."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4002,13 +4002,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5050,
-  "message" : "Search returned 3 results",
-  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5055,
-  "message" : "Successfully selected The Unforgiven."
+  "message" : "Successfully selected Start Me Up."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4023,13 +4023,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5075,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 3 results",
+  "results" : [ "The Unforgiven", "The Man", "Thinking Out Loud" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5080,
-  "message" : "Successfully selected Big Pimpin'."
+  "message" : "Successfully selected Thinking Out Loud."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4050,7 +4050,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5105,
-  "message" : "Successfully selected Love Story."
+  "message" : "Successfully selected Blank Space."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4065,13 +4065,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5125,
-  "message" : "Search returned 5 results",
-  "results" : [ "Don't", "Money Trees", "Under Pressure", "Whatever You Need", "Start Me Up" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5130,
-  "message" : "Successfully selected Money Trees."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4087,12 +4087,12 @@
   "user" : "jack29",
   "timestamp" : 5150,
   "message" : "Search returned 5 results",
-  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Start Me Up", "Black Dog" ]
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5155,
-  "message" : "Successfully selected Dream On."
+  "message" : "Successfully selected Begin Again."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4107,13 +4107,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5175,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5180,
-  "message" : "Successfully selected Gimme Shelter."
+  "message" : "Successfully selected Black Dog."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4128,13 +4128,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5200,
-  "message" : "Search returned 4 results",
-  "results" : [ "Start Me Up", "Angie", "Paint It Black", "Gimme Shelter" ]
+  "message" : "Search returned 5 results",
+  "results" : [ "The Man", "Delicate", "Love Story", "Blank Space", "Begin Again" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5205,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected The Man."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4155,7 +4155,7 @@
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5230,
-  "message" : "Successfully selected Sad But True."
+  "message" : "Successfully selected Gimme Shelter."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4170,13 +4170,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5250,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 5 results",
+  "results" : [ "Don't", "Sad But True", "Maps", "Gimme Shelter", "Bohemian Rhapsody" ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5255,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Maps."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4191,13 +4191,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 5275,
-  "message" : "Search returned 5 results",
-  "results" : [ "Big Pimpin'", "Black Dog", "Bohemian Rhapsody", "Blank Space", "Begin Again" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 5280,
-  "message" : "Successfully selected Black Dog."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "load",
   "user" : "jack29",
@@ -4213,13 +4213,13 @@
   "user" : "alice22",
   "timestamp" : 5300,
   "result" : [ {
-    "name" : "Groovy Beats Quest #1",
-    "songs" : [ "Bohemian Rhapsody", "Blank Space", "Paint It Black" ],
+    "name" : "Classic Harmonies Dream #1",
+    "songs" : [ "Start Me Up", "Gimme Shelter", "Delicate" ],
     "visibility" : "public",
     "followers" : 0
   }, {
-    "name" : "Classic Grooves Escape #2",
-    "songs" : [ "Start Me Up", "Shape of You", "Begin Again", "Black Dog" ],
+    "name" : "Classic Sounds Expedition #2",
+    "songs" : [ "Angie", "Delicate", "Shape of You", "Maps", "Love Story", "Bohemian Rhapsody", "The Man", "Money Trees", "Thinking Out Loud" ],
     "visibility" : "public",
     "followers" : 0
   } ]
@@ -4273,12 +4273,12 @@
   "user" : "alice22",
   "timestamp" : 5400,
   "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 5401,
-  "message" : "Successfully selected Groovy Beats Quest #1."
+  "message" : "Successfully selected Classic Sounds Expedition #2."
 }, {
   "command" : "load",
   "user" : "alice22",
@@ -4430,38 +4430,38 @@
   "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
-  "user" : "alice22",
-  "timestamp" : 5500,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "alice22",
-  "timestamp" : 5700,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "jack29",
-  "timestamp" : 5790,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "emily30",
-  "timestamp" : 5840,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "bob35",
-  "timestamp" : 5910,
+  "user" : "grace25",
+  "timestamp" : 5560,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
   "user" : "carol19",
-  "timestamp" : 5920,
+  "timestamp" : 5620,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "david27",
+  "timestamp" : 5730,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "bob35",
+  "timestamp" : 5810,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 5850,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
   "user" : "irene33",
-  "timestamp" : 5980,
+  "timestamp" : 5880,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 5960,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
@@ -4470,8 +4470,18 @@
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "alice22",
-  "timestamp" : 6100,
+  "user" : "emily30",
+  "timestamp" : 6040,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "frank21",
+  "timestamp" : 6150,
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "like",
+  "user" : "grace25",
+  "timestamp" : 6160,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
@@ -4480,13 +4490,13 @@
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "bob35",
-  "timestamp" : 6310,
+  "user" : "david27",
+  "timestamp" : 6230,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "carol19",
-  "timestamp" : 6320,
+  "user" : "frank21",
+  "timestamp" : 6250,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
@@ -4495,23 +4505,13 @@
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "alice22",
-  "timestamp" : 6400,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
   "user" : "frank21",
   "timestamp" : 6450,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "jack29",
-  "timestamp" : 6490,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "frank21",
-  "timestamp" : 6550,
+  "user" : "bob35",
+  "timestamp" : 6510,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
@@ -4520,28 +4520,13 @@
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "david27",
-  "timestamp" : 6630,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "frank21",
-  "timestamp" : 6650,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
   "user" : "bob35",
-  "timestamp" : 6710,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "irene33",
-  "timestamp" : 6780,
+  "timestamp" : 6610,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
   "user" : "david27",
-  "timestamp" : 6830,
+  "timestamp" : 6730,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
@@ -4550,18 +4535,13 @@
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "irene33",
-  "timestamp" : 6880,
+  "user" : "emily30",
+  "timestamp" : 6940,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "like",
-  "user" : "jack29",
-  "timestamp" : 6890,
-  "message" : "Please load a source before liking or unliking."
-}, {
-  "command" : "like",
-  "user" : "carol19",
-  "timestamp" : 6920,
+  "user" : "henry26",
+  "timestamp" : 6970,
   "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "search",
@@ -4611,68 +4591,68 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7030,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "command" : "select",
-  "user" : "emily30",
-  "timestamp" : 7030,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "search",
-  "user" : "frank21",
-  "timestamp" : 7040,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "command" : "select",
-  "user" : "frank21",
-  "timestamp" : 7040,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "search",
-  "user" : "grace25",
-  "timestamp" : 7050,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "command" : "select",
-  "user" : "grace25",
-  "timestamp" : 7050,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "search",
-  "user" : "henry26",
-  "timestamp" : 7060,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "command" : "select",
-  "user" : "henry26",
-  "timestamp" : 7060,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "search",
-  "user" : "irene33",
-  "timestamp" : 7070,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
-}, {
-  "command" : "select",
-  "user" : "irene33",
-  "timestamp" : 7070,
-  "message" : "The selected ID is too high."
-}, {
-  "command" : "search",
-  "user" : "jack29",
-  "timestamp" : 7080,
   "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 7030,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "frank21",
+  "timestamp" : 7040,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "frank21",
+  "timestamp" : 7040,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "grace25",
+  "timestamp" : 7050,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "grace25",
+  "timestamp" : 7050,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "henry26",
+  "timestamp" : 7060,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "henry26",
+  "timestamp" : 7060,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "irene33",
+  "timestamp" : 7070,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "irene33",
+  "timestamp" : 7070,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "search",
+  "user" : "jack29",
+  "timestamp" : 7080,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 7080,
-  "message" : "Successfully selected Classic Grooves Escape #2."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -4721,8 +4701,8 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7130,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
@@ -4754,8 +4734,8 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7160,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "henry26",
@@ -4820,8 +4800,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 7220,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -4831,13 +4811,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 7230,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 7230,
-  "message" : "Successfully selected Classic Grooves Escape #2."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -4864,19 +4844,19 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 7260,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 7260,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Classic Sounds Expedition #2."
 }, {
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7270,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -5172,13 +5152,13 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 7540,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 7540,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Classic Harmonies Dream #1."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -5315,8 +5295,8 @@
   "command" : "search",
   "user" : "irene33",
   "timestamp" : 7670,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "irene33",
@@ -5711,13 +5691,13 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8030,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 8030,
-  "message" : "Successfully selected Classic Grooves Escape #2."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "frank21",
@@ -5810,8 +5790,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 8120,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "david27",
@@ -5821,24 +5801,24 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 8130,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 8130,
-  "message" : "Successfully selected Groovy Beats Quest #1."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8140,
   "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "frank21",
   "timestamp" : 8140,
-  "message" : "Successfully selected Groovy Beats Quest #1."
+  "message" : "Successfully selected Classic Harmonies Dream #1."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -5854,13 +5834,13 @@
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 8160,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "henry26",
   "timestamp" : 8160,
-  "message" : "Successfully selected Classic Grooves Escape #2."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -5898,8 +5878,8 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 8200,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "bob35",
@@ -5942,8 +5922,8 @@
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 8240,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Classic Harmonies Dream #1", "Classic Sounds Expedition #2" ]
 }, {
   "command" : "select",
   "user" : "frank21",
@@ -5953,13 +5933,13 @@
   "command" : "search",
   "user" : "grace25",
   "timestamp" : 8250,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "grace25",
   "timestamp" : 8250,
-  "message" : "Successfully selected Classic Grooves Escape #2."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -5986,13 +5966,13 @@
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 8280,
-  "message" : "Search returned 2 results",
-  "results" : [ "Groovy Beats Quest #1", "Classic Grooves Escape #2" ]
+  "message" : "Search returned 0 results",
+  "results" : [ ]
 }, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 8280,
-  "message" : "Successfully selected Groovy Beats Quest #1."
+  "message" : "The selected ID is too high."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -6218,13 +6198,13 @@
   "user" : "alice22",
   "timestamp" : 8490,
   "result" : [ {
-    "name" : "Groovy Beats Quest #1",
-    "songs" : [ "Bohemian Rhapsody", "Blank Space", "Paint It Black" ],
+    "name" : "Classic Harmonies Dream #1",
+    "songs" : [ "Start Me Up", "Gimme Shelter", "Delicate" ],
     "visibility" : "public",
     "followers" : 0
   }, {
-    "name" : "Classic Grooves Escape #2",
-    "songs" : [ "Start Me Up", "Shape of You", "Begin Again", "Black Dog" ],
+    "name" : "Classic Sounds Expedition #2",
+    "songs" : [ "Angie", "Delicate", "Shape of You", "Maps", "Love Story", "Bohemian Rhapsody", "The Man", "Money Trees", "Thinking Out Loud" ],
     "visibility" : "public",
     "followers" : 0
   } ]

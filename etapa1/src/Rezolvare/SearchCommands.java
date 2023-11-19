@@ -187,7 +187,7 @@ public class SearchCommands extends Output{
 			if (userCommands1.getTrack().equals("podcast"))
 				userCommands1.setResults(searchCommands.SearchPodcast(library, comm));
 			if (userCommands1.getTrack().equals("playlist"))
-				userCommands1.setResults(searchCommands.SearchPlaylist(comm, userCommands));
+				userCommands1.setResults(searchCommands.SearchPlaylist( comm, userCommands));
 		}
 	}
 }

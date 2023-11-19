@@ -141,7 +141,7 @@
   "command" : "load",
   "user" : "emily30",
   "timestamp" : 4245,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -158,10 +158,10 @@
   "user" : "emily30",
   "timestamp" : 4370,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Shape of You",
+    "remainedTime" : 83,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 } ]

@@ -63,7 +63,8 @@ public class Output {
 				else {
 					String elem = userCommands1.getResults().get(comm.getItemNumber() - 1);
 					output.setMessage("Successfully selected " + elem + ".");
-					userCommands1.setSelectedSong(elem);
+//					userCommands1.setSelectedSong(elem);
+					userCommands1.setPlayingPlaylist(elem);
 				}
 			}
 		}
@@ -92,10 +93,10 @@ public class Output {
 		if (userCommands1.getLastCommand().equals("select")) {
 			if (userCommands1.getTrack().equals("song"))
 				userCommands1.LoadData(userCommands1, library);
-			else {
-				userCommands1.setTrack("playlist");
+			if (userCommands1.getPlayingPlaylist() != null) {
+//				userCommands1.LoadData(userCommands1, library);
+//				userCommands1.
 			}
-//			userCommands1.setLastCommand("load");
 			userCommands1.setLastTimestamp(comm.getTimestamp());
 			output.setMessage("Playback loaded successfully.");
 		}

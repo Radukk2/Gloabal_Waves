@@ -12,6 +12,7 @@ public class UserCommands {
 	ArrayList<String> results;
 	ArrayList<Playlist> playlists;
 	ArrayList<String> likedSongs = new ArrayList<String>();
+	String playingPlaylist;
 
 	public int getLastTimestamp() {return lastTimestamp;}
 	public void setLastTimestamp(int lastTimestamp) {this.lastTimestamp = lastTimestamp;}
@@ -31,6 +32,8 @@ public class UserCommands {
 	public void setPlaylist(ArrayList<Playlist> playlists) {this.playlists = playlists;}
 	public ArrayList<String> getLikedSongs() {return likedSongs;}
 	public void setLikedSongs(ArrayList<String> likedSongs) {this.likedSongs = likedSongs;}
+	public String getPlayingPlaylist() {return playingPlaylist;}
+	public void setPlayingPlaylist(String playingPlaylist) {this.playingPlaylist = playingPlaylist;}
 
 	public void LoadData(UserCommands userCommands, LibraryInput libraryInput) {
 		if (userCommands.getTrack().equals("song")) {

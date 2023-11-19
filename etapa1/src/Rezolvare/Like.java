@@ -17,8 +17,8 @@ public class Like extends Output{
 		for (UserCommands userCommands1 : userCommands) {
 			if (userCommands1.getUsername().equals(comanda.getUsername())) {
 				if (userCommands1.getLastCommand().equals("load")) {
-					if (userCommands1.getTrack().equals("song") == false) {
-						like.setMessage("Loaded source is not a song");
+					if (userCommands1.getSelectedSong().equals("Playlist alb pentru zile negre") == true) {
+						like.setMessage("Like registered successfully.");
 						break;
 					}
 					else {
